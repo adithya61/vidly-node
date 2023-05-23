@@ -16,3 +16,5 @@ const server = app.listen(port, () =>
 );
 
 module.exports = server;
+// "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
+// "port": "27017"

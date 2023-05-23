@@ -1,5 +1,3 @@
 {
-    "jwtPrivateKey": "vidly_jwtPrivateKey",
-    "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
-    "port": "27017"
+    "jwtPrivateKey": "vidly_jwtPrivateKey"
   }
