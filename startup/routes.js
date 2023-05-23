@@ -19,5 +19,4 @@ module.exports = function (app) {
   app.use("/api/returns", returns);
   app.use(error);
 
-  console.log("file error here");
 };
