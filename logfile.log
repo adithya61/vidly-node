@@ -6,3 +6,5 @@
 {"level":"info","message":"Connected to mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-05-23T14:40:44.958Z"}
 {"level":"info","message":"Listening on port 27017...","timestamp":"2023-05-23T14:56:53.309Z"}
 {"level":"info","message":"Connected to mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority...","timestamp":"2023-05-23T14:56:53.907Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2023-05-23T18:45:26.086Z"}
+{"level":"info","message":"Connected to mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority...","timestamp":"2023-05-23T18:45:27.067Z"}

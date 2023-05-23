@@ -6,10 +6,10 @@ const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
 
+console.log("genres called hereeeeeeeee");
+
 router.get("/", async (req, res) => {
-  const genres = await Genre.find()
-    .select("-__v")
-    .sort("name");
+  const genres = await Genre.find().select("-__v").sort("name");
   res.send(genres);
 });
 
@@ -31,7 +31,7 @@ router.put("/:id", [auth, validateObjectId], async (req, res) => {
     req.params.id,
     { name: req.body.name },
     {
-      new: true
+      new: true,
     }
   );
 
