@@ -1,6 +1,0 @@
-{
-    "jwtPrivateKey": "vidly_jwtPrivateKey",
-    "db": "mongodb+srv://zonic:pKe6hqmMF47xsEyv@vidly.p9olr4s.mongodb.net/?retryWrites=true&w=majority",
-    "port": "27017",
-    "requiresAuth": false
-  }

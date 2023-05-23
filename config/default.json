@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db": ""
+  "db": "vidly_db"
 }
