@@ -56,7 +56,7 @@ async function seed() {
   mongoose.disconnect();
 
   console.info("Done!");
-  console.log("Routing Done");
+  console.log("Seeding Done");
 }
 
 seed();

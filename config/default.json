@@ -1,4 +1,4 @@
 {
   "jwtPrivateKey": "unsecureKey",
-  "db": "mongodb+srv://zonic:pKe6hqmMF47xsEyv@vidly.p9olr4s.mongodb.net/"
+  "db": ""
 }
