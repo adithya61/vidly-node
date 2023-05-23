@@ -7,4 +7,3 @@ git commit -m "$commitMessage"
 
 git push origin main
 
-read
