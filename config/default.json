@@ -1,4 +1,0 @@
-{
-  "jwtPrivateKey": "unsecureKey",
-  "db": "vidly_db"
-}
