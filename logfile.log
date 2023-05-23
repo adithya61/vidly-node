@@ -18,3 +18,5 @@
 {"level":"info","message":"Connected to mongodb+srv://zonic:pKe6hqmMF47xsEyv@vidly.p9olr4s.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-05-23T12:23:40.323Z"}
 {"level":"info","message":"Listening on port 27017...","timestamp":"2023-05-23T12:26:53.405Z"}
 {"level":"info","message":"Connected to mongodb+srv://zonic:pKe6hqmMF47xsEyv@vidly.p9olr4s.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-05-23T12:26:54.005Z"}
+{"level":"info","message":"Listening on port 27017...","timestamp":"2023-05-23T13:02:31.593Z"}
+{"level":"info","message":"Connected to mongodb+srv://zonic:pKe6hqmMF47xsEyv@vidly.p9olr4s.mongodb.net/?retryWrites=true&w=majority...","timestamp":"2023-05-23T13:02:33.804Z"}
