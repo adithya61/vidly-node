@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "node seed.js",
+    "build": "npm install",
     "test": "jest --watchAll --verbose"
   },
   "keywords": [],
