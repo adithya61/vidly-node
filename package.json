@@ -4,8 +4,8 @@
   "description": "This project is the backend of Vidly, an imaginary video rental app. I've used Vidly as an example in several of my online programming courses, such as:",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "./node_modules/.bin/netlify-lambda build src",
+    "start": "node index.js",
+    "build": "npm install",
     "test": "jest --watchAll --verbose"
   },
   "keywords": [],
