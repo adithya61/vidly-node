@@ -3,12 +3,12 @@ const express = require("express");
 const config = require("config");
 const app = express();
 
-require("./startup/logging")();
-require("./startup/cors")(app);
-require("./startup/routes")(app);
-require("./startup/db")();
+require("../startup/logging")();
+require("../startup/cors")(app);
+require("../startup/routes")(app);
+require("../startup/db")();
 // require("./startup/config")();
-require("./startup/validation")();
+require("../startup/validation")();
 
 console.log("donee index");
 
