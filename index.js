@@ -19,9 +19,6 @@ const server = app.listen(port, () =>
 
 console.log("INFO: server set up done");
 
-throw Error(router);
-throw Error("this is an Error");
-
 // "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
 // "port": "27017"
 
