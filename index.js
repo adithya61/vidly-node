@@ -16,7 +16,7 @@ const port = process.env.PORT || config.get("port");
 const server = app.listen(port, () =>
   winston.info(`Listening on port ${port}...`)
 );
-
+console.log("INFO: server set up done");
 module.exports = server;
 // "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
 // "port": "27017"

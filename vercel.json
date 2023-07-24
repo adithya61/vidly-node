@@ -1,5 +1,4 @@
  {
     "version": 2,
-    "name": "native-server",
-    "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
+    "name": "native-server"
 }
