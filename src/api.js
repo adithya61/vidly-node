@@ -1,5 +1,4 @@
 const winston = require("winston");
-import { serverless } from "serverless-http";
 const express = require("express");
 const config = require("config");
 const app = express();

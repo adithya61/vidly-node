@@ -4,8 +4,8 @@
   "description": "This project is the backend of Vidly, an imaginary video rental app. I've used Vidly as an example in several of my online programming courses, such as:",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js",
-    "build": "npm install",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src",
     "test": "jest --watchAll --verbose"
   },
   "keywords": [],
@@ -28,6 +28,7 @@
     "moment": "^2.20.1",
     "mongodb": "^5.5.0",
     "mongoose": "^5.13.17",
+    "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0",
     "winston": "^2.4.0",
     "winston-mongodb": "^3.0.0"
