@@ -1,9 +1,9 @@
-import serverless from 'serverless-http';
-
 const winston = require("winston");
+import { serverless } from "serverless-http";
 const express = require("express");
 const config = require("config");
 const app = express();
+const serverless = require("serverless-http");
 
 require("../startup/logging")();
 require("../startup/cors")(app);
@@ -23,6 +23,4 @@ console.log("INFO: server set up done");
 // "port": "27017"
 // module.exports = server;
 
-export const handler = serverless(api);
-
-
+module.exports.handler = serverless(app);
