@@ -1,6 +1,1 @@
-{
-    "jwtPrivateKey": "vidly_jwtPrivateKey",
-    "db":"vidly_db",
-    "port": "27017"
-  }
-  
+{}
