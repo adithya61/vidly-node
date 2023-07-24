@@ -3,6 +3,6 @@ const mongoose = require("mongoose");
 const config = require("config");
 
 module.exports = function () {
-  const db = config.get("default.db");
+  const db = config.get(vidly_db);
   mongoose.connect(db).then(() => winston.info(`Connected to ${db}...`));
 };
