@@ -1,3 +1,5 @@
+import serverless from 'serverless-http';
+
 const winston = require("winston");
 const express = require("express");
 const config = require("config");
@@ -19,4 +21,8 @@ console.log("INFO: server set up done");
 
 // "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
 // "port": "27017"
-module.exports = server;
+// module.exports = server;
+
+export const handler = serverless(api);
+
+

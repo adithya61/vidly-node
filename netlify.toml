@@ -5,4 +5,4 @@
   force = true
   from = "/*"
   status = 200
-  to = '../test/index.html'
+  to = "/../dist/api/:splat"
