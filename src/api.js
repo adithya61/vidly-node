@@ -3,6 +3,7 @@ const express = require("express");
 const config = require("config");
 const app = express();
 const serverless = require("serverless-http");
+const { Err } = require("joi/lib/errors");
 
 require("../startup/logging")();
 require("../startup/cors")(app);
@@ -17,6 +18,9 @@ const server = app.listen(port, () =>
 );
 
 console.log("INFO: server set up done");
+
+throw Error(router);
+throw Error("this is an Error");
 
 // "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
 // "port": "27017"

@@ -10,7 +10,7 @@ const error = require("../middleware/error");
 
 module.exports = function (app) {
   app.use(express.json());
-  app.use("/.netlify/functions/api/genres", genres);
+  app.use("/api/genres", genres);
   app.use("/api/customers", customers);
   app.use("/api/movies", movies);
   app.use("/api/rentals", rentals);
