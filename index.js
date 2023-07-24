@@ -1,7 +1,7 @@
 const winston = require("winston");
 const express = require("express");
 const config = require("config");
-const app = express();
+// const app = express();
 const serverless = require("serverless-http");
 const { Err } = require("joi/lib/errors");
 
