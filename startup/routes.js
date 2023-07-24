@@ -10,7 +10,7 @@ const error = require("../middleware/error");
 
 module.exports = function (app) {
   app.use(express.json());
-  app.use("/api/genres", genres);
+  app.use("../dist/api/genres", genres);
   app.use("/api/customers", customers);
   app.use("/api/movies", movies);
   app.use("/api/rentals", rentals);
@@ -18,5 +18,4 @@ module.exports = function (app) {
   app.use("/api/auth", auth);
   app.use("/api/returns", returns);
   app.use(error);
-
 };
