@@ -1,5 +1,5 @@
 {
-    "jwtPrivateKey": "vidly_jwtPrivateKey",
+    "jwtPrivateKey": "nokey",
     "db":"vidly_db",
     "port": "27017"
   }
