@@ -20,7 +20,4 @@ const server = app.listen(port, () =>
 
 console.log("INFO: server set up done");
 
-// "db": "mongodb+srv://zonic:syagAXVEthNGhAlx@test.snk5gii.mongodb.net/test?retryWrites=true&w=majority",
-// "port": "27017"
-
 module.exports = server;
